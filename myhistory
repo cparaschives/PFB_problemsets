@@ -1,0 +1,122 @@
+    1  ssh localhost
+    2  exit
+    3  nslookup info23
+    4  ifconfig -a
+    5  nslookup 143.48.7.106
+    6  zsh /tmp/miniconda_install.sh
+    7  ls
+    8  vi err.txt
+    9  vi first_vi_file.txt
+   10  bash first_vi_file.txt
+   11  vi second_vi_file
+   12  vi second_vi_file
+   13  vi second_vi_file
+   14  ~
+   15  pwd
+   16  echo "# PFB_problemsets" >> README.md
+   17  ls
+   18  ~
+   19  mkdir
+   20  problemsets
+   21  mkdir problemsets
+   22  ls
+   23  cd/problemsets
+   24  ls
+   25  cd ~
+   26  cd problemsets
+   27  ls
+   28  ls -a
+   29  ls -a ../
+   30  ls
+   31  ls -a
+   32  echo "# PFB_problemsets" >> README.md
+   33  git init
+   34  git add README.md
+   35  git commit -m "first commit"
+   36  git branch -M main
+   37  git remote add origin https://github.com/cparaschives/PFB_problemsets.git
+   38  git push -u origin main
+   39  git push -u origin main
+   40  $ ssh-keygen -t ed25519 -C "cristina.paraschivescu@outlook.com"
+   41  ssh-keygen -t ed25519 -C "cristina.paraschivescu@outlook.com" 
+   42  ls ~/.ssh
+   43  ls -a
+   44  ls ~/.ssh
+   45  eval "$(ssh-agent -s)"
+   46  open ~/.ssh/config
+   47  touch ~/.ssh/config
+   48  vi touch ~/.ssh/config
+   49  vi ~/.ssh/config\n
+   50  ls
+   51  cat ~/.ssh/config 
+   52  vi ~/.ssh/config    
+   53  cap ~/.ssh/config  
+   54  cap ~/.ssh/config  
+   55  vi ~/.ssh/config  
+   56  cat ~/.ssh/config 
+   57  cat  ~/.ssh/id_ed25519.pub
+   58  git push -u origin main
+   59  git remote add origin git@github.com:cparaschives/PFB_problemsets.git
+   60  ls
+   61  rm -rf .git
+   62  ls
+   63  git init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:cparaschives/PFB_problemsets.git\ngit push -u origin main
+   64  ls
+   65  vi git_execises.txt
+   66  git add git_exercises.txt
+   67  vi git_exercises.txt
+   68  git add git_exercises.txt
+   69  git commit -m 'added a line of text'
+   70  git push origin main
+   71  git status
+   72  vi .git/hooks/pre-commit
+   73  vi .git/hooks/pre-commit
+   74  git status
+   75  find $(git status --porcelain | awk '{print $2}' | paste -s -d' ' -) -size +45M | sed 's|^\./||' |\nsort
+   76  chmod +x .git/hooks/pre-commit
+   77  ls
+   78  ls .git
+   79  ls .git/hooks
+   80  ls .git/hooks/pre-commit
+   81  ls -l .git/hooks/pre-commit
+   82  ls
+   83  cd ~
+   84  ls
+   85  git clone
+   86  git clone git@github.com:prog4biol/pfb2023.git
+   87  [200~git status~
+   88  git status
+   89  ls
+   90  ls problemsets
+   91  cd problemsets
+   92  git status
+   93  mkdir
+   94  unix_1
+   95  mkdir unix_1
+   96  ls
+   97  mkdir unix_2
+   98  ls
+   99  mv ../first_vi_file.txt unix_1
+  100  ls unix_1
+  101  git status
+  102  git add unix_1
+  103  git status
+  104  git commit -m 'adding new folders'  
+  105  git push
+  106  git status
+  107  git pull
+  108  mv ../second_vi_file unix_2
+  109  ls unix_2
+  110  git status
+  111  git add unix_2
+  112  git commit -m 'adding more folders'
+  113  git push
+  114  git status
+  115  mkdir files
+  116  ls files
+  117  history
+  118  history -h
+  119  history -help
+  120  history --help
+  121  man history
+  122  history 1
